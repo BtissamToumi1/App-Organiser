@@ -34,10 +34,28 @@ body{
     
 }
 li:hover{
-    background-color: rgb(191, 191, 204);
+    background-color: rgba(150, 150, 223, 0.5);
 }
 
-/* Pour assurer que la navbar prend la hauteur de la fenêtre visible, quelle que soit la taille du contenu */
-/* .navbar {
-    
-} */
+/* le style pour la page Add contact */
+.container{
+    margin-top: 200px;
+    margin-left: 400px;
+    width: auto;
+     height: 650px;
+     background-color: antiquewhite;
+     border-radius: 20px;
+     background-color: rgba(200, 200, 227,0.5);
+     box-sizing: border-box;
+ }
+ .container h3{
+   padding: 40px;
+   padding-left: 200px;
+   /* padding-left: 450px; */
+ } 
+ .buttonn{
+    padding-left: 400px;
+ }
+ /* .btn{
+     margin-right: 60px;
+ } */
