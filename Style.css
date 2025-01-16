@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Nécessaire pour que les éléments enfants puissent prendre 100% */
+    background-image: url(image/abstract-textured-backgound.jpg);
+    background-size: cover; /* Pour ajuster l'image à la taille de la page */
+    background-repeat: no-repeat;
+}
+.d-flex {
+    height: 100%; /* Permet d'occuper toute la hauteur de la page */
+}
+
+.navbar {
+     min-height: 100vh;
+    /* height: 100%; Assure que la barre de navigation prend toute la hauteur disponible */
+    
+}
+.navbar-nav {
+    flex-grow: 1;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: flex-start; Aligne les éléments en haut */
+}
+/* .nav-link {
+    margin: 0;
+    padding: 0;
+}*/
+
+/* .nav-item {
+    background-color: #d02b2b;
+}  */
+ li {
+    padding-left: 55px;
+    
+}
+li:hover{
+    background-color: rgb(191, 191, 204);
+}
+
+/* Pour assurer que la navbar prend la hauteur de la fenêtre visible, quelle que soit la taille du contenu */
+/* .navbar {
+    
+} */
